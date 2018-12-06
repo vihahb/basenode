@@ -7,7 +7,7 @@ var connections = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: 'vuhavi727',
-    database: 'basic_nodejs'
+    database: 'basic_node'
 });
 
 connections.connect((err, res) => {
