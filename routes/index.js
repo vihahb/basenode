@@ -3,7 +3,7 @@ var router = express.Router();
 var connections = require('./DBConnection.js');
 
 /* GET home page. */
-router.get('/', function(req, respond, next) {
+router.get('/home', function(req, respond, next) {
     respond.render('index', { title: 'My tutorial express' });
 });
 router.get('/list_all_user',(request, respond, next)=>{
